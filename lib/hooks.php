@@ -124,7 +124,8 @@ class OC_esLog_Hooks {
 			
 		} 
 
-		if(!in_array($action,array('head'))){
+		// Add the HTTP verbs you don't want to log
+                if(!in_array($action,array('head', 'propfind'))){
 			OC_esLog::log($path,NULL,$action,$protocol);
 		}		
 		
