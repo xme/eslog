@@ -1,6 +1,5 @@
 <?php
 $tmpl = new OC_Template('eslog', 'settings');
-$tmpl->assign('eslog_lifetime', OC_Appconfig::getValue('eslog', 'eslog_lifetime','2'));
 $tmpl->assign('eslog_host', OC_Appconfig::getValue('eslog', 'eslog_host','127.0.0.1:9200'));
 $tmpl->assign('eslog_auth', OC_Appconfig::getValue('eslog', 'eslog_auth','none'));
 $tmpl->assign('eslog_user', OC_Appconfig::getValue('eslog', 'eslog_user',''));
