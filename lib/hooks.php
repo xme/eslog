@@ -1,9 +1,7 @@
 <?php
 
 
-namespace OCA\Eslog\Lib;
-
-use \OCA\Eslog\Lib\Log;
+require_once 'apps/eslog/lib/log.php';
 
 // Hooks definition
 

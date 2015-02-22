@@ -7,8 +7,13 @@
  * @copyright 2014 CNRS DSI
  * @license This file is licensed under the Affero General Public License version 3 or later. See the COPYING file.
  */
+
+use \OCA\Eslog\Lib\Log;
+use \OCA\Eslog\Lib\Hooks;
+
 OC::$CLASSPATH['OC_Eslog'] = 'eslog/lib/log.php';
 OC::$CLASSPATH['OC_esLog_Hooks'] = 'eslog/lib/hooks.php';
+
 
 OCP\Util::addStyle('eslog', 'eslog');
 OCP\Util::addScript('eslog', 'eslog');
