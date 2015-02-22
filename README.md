@@ -34,7 +34,7 @@ v1.0
 This app requires the Elasticsearch PHP API.
 See: http://www.elasticsearch.org/guide/en/elasticsearch/client/php-api/current/
 
-Once installed, place the vendor in the root path of the app (ie: /eslog/vendor)
+Once installed, place the vendor in the root path of the app (ie: apps/eslog/vendor)
 
 Go to your admin and acive the app then you can configure Elasticsearch in the admin panel
 
