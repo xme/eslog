@@ -1,5 +1,10 @@
 <?php
 
+
+namespace OCA\Eslog\Lib;
+
+use \OCA\Eslog\Lib\Log;
+
 // Hooks definition
 
 class OC_esLog_Hooks {

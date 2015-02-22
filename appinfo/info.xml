@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+    <id>eslog</id>
+    <name>Eslog</name>
+    <description>Eslog</description>
+    <version>1.1</version>
+    <licence>AGPL</licence>
+    <author>Patrick Paysant / CNRS</author>
+    <require>8</require>
+</info>

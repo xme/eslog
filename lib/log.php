@@ -3,7 +3,10 @@
 // Change the patch to your /vendor directory
 // See the Elasticsearch PHP API document for more details
 // http://www.elasticsearch.org/guide/en/elasticsearch/client/php-api/current/
-require '/var/www/vendor/autoload.php';
+require_once 'vendor/autoload.php';
+
+
+namespace OCA\Eslog\Lib;
 
 class OC_esLog {
 
