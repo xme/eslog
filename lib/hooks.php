@@ -1,5 +1,8 @@
 <?php
 
+
+require_once 'apps/eslog/lib/log.php';
+
 // Hooks definition
 
 class OC_esLog_Hooks {
